@@ -21,12 +21,19 @@ println("--------------------------------------------")
 class  Car (val name: String , val type : String , var kmRun : Int) // properties
  {
 
-    fun driveCar (){        // Methods
+    fun driveCar (){  // Methods or function
         println("$name  Car is driving")
     }
 
-    fun applyBrakes (){
+    fun applyBrakes (){   // function or methods
         println("brake applied")
     }
 
 }
+
+ /*
+   Note :
+
+    The properties is storing our data and
+    Methods or functions is normal function that work on the data
+    */
