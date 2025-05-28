@@ -5,30 +5,30 @@ fun main (){
         // in this code  upper bound is included
     }
 
-    println("--------------------")
+    println("")
     for (i in 1 until 10){
         println(i)
         // in this code the  upper bound is not included
     }
 
-    println("-----------------")
+    println("")
     val fruit = listOf("mango","apple","banana")
     for (fruits in fruit){
         println("i like $fruits")
     }
 
-    println("----------------")
+    println("")
 
     for (i in 5 downTo 1){
         println(i)
     }
-    println("------------------")
+    println("")
 
     for (i in 1..10 step 2){
         println(i)
     }
 
-    println("-------------------")
+    println("")
 
     // print Table of 10
 
@@ -37,7 +37,7 @@ fun main (){
         println(number*i)
     }
 
-    println("--------------")
+    println("")
 
     /*
     print table like
