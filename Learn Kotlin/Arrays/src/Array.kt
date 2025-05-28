@@ -4,14 +4,14 @@ fun main() {
         println(i)
     }
 
-    println("-------------")
+    println("")
     val fruits = arrayOf("Banana" , "Apple" , "Mango")
 
     for (fruit in fruits) {
         println(fruit)
     }
 
-println("--------------------")
+println("")
 
     // To show with index
     val number = arrayOf(1,2,"Mango",4,5,"Apple",7,8,9,10,11,12,13,14,15)
@@ -19,7 +19,7 @@ println("--------------------")
         println("$num - $e")
     }
 
-    println("--------------------")
+    println("")
 
     // To access particular element of created array for that
     println(number[2])
