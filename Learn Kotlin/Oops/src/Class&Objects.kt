@@ -6,7 +6,7 @@ fun main() {
     println(bmw.type)
     println(bmw.kmRun)
 
-println("--------------------------------------------")
+println("")
 
     println(oodi.name)
     println(oodi.type)
