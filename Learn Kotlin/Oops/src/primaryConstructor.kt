@@ -5,6 +5,9 @@ fun main(){
     println("age = ${person.age}")
 
     val mm = meharban("Meharba Alam", 20)
+
+    // object of automobile class
+    val car = AutoMobile1("Benz","Petrol")
 }
 class Person1 (val name : String , var age : Int){
 
@@ -24,3 +27,23 @@ class  meharban (name : String , age : Int){
         println("Age = $personAge")
     }
 }
+
+    // secondary constructor
+class AutoMobile1 (val name : String , val tyres: Int , val maxSeating: Int , val engineType: String){
+
+    init {
+        println("name of the car is :  $name")
+    }
+        init {
+            println("Engine type of $name car is :  $engineType ")
+        }
+        init {
+            println("Seating capacity of $name car is  :  $maxSeating")
+        }
+
+         // in kotlin to create secondary constructor must call the primary constructor using :this keyword
+
+        constructor(carName:String, carEngine: String )
+                :this(carName,4,5,carEngine)
+
+    }
